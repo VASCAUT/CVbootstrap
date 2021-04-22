@@ -12,13 +12,6 @@
     <title>Mon CV sur bootstrap</title>
   </head>
 
-<script>
-  var tir1 = new audio();
-  tir1.src = "";
-  var tir1 = new audio();
-  tir2.src = "";
-</script>
-
 <style>
     .row {
       border: 1px solid #7451EB;
@@ -30,7 +23,7 @@
     }
   </style>
 
-<body onmousedown="tir1.play()">
+<body>
 
     <header>
         <div class="container-fluid">
@@ -88,6 +81,7 @@
     </header>
 
     <main>
+      <div class="col-12 mt-2 flexcenter"><img class="w20" src="assets/img/revolver2.svg" alt="revolver"></div>
         <div class="container-fluid mt-2">
             <div class="col-12">
                 <div class="row">
@@ -207,8 +201,8 @@
                 <h2 class="fonttravel text-blood">Softwares</h2>
                 <img class="w60" src="assets/img/barre2.svg" alt="barre2">
                 <dl class="fontduality mt-5 text-dark">
-                  <dt><img src="assets/img/gimp.svg" alt="gimp"> <img src="assets/img/inkscape.svg" alt="inkscape"> <img src="" alt="krita"><img src="assets/img/adobe.svg" alt="adobe"> <img src="assets/img/vsc.svg" alt="vsc"><br>Gimp, Inkscape, Krita, Creative Cloud,VSC : niveau débutant</dt>
-                  <dt class="mt-5"><img src="" alt="excel"> <img src="" alt="word"> <img src="" alt="openoffice"> <img src="assets/img/silog.svg" alt="silog"><br>Traitement de texte, ERP (Silog) : utilisation normale</dt>
+                  <dt><img src="assets/img/gimp.svg" alt="gimp"> <img src="assets/img/inkscape.svg" alt="inkscape"> <img src="assets/img/krita.svg" alt="krita"><img src="assets/img/adobe.svg" alt="adobe"> <img src="assets/img/vsc.svg" alt="vsc"><br>Gimp, Inkscape, Krita, Creative Cloud,VSC : niveau débutant</dt>
+                  <dt class="mt-5"><img src="assets/img/excel.svg" alt="excel"> <img src="assets/img/word.svg" alt="word"> <img src="assets/img/openoffice.svg" alt="openoffice"> <img src="assets/img/silog.svg" alt="silog"><br>Tableur et traitement de texte, ERP (Silog) : utilisation normale</dt>
                   </dl>
                 </div>
                 <div class="col-md-4 col-12 text-center">
@@ -237,13 +231,50 @@
             <div class="col-12 mt-2">
               <div class="row">
                 <div class="col-md-6 col-12 bg-dark text-grey text-center">
-                <h2 class="fonttravel text-grey">Contact</h2>
+                  <div class="row">
+                    <div class="col-12">
+                      <h2 class="fonttravel text-grey">Contact</h2>
+                    </div>
+                  </div>
+                  <div class="row fontduality">
+                    <div class="col-md-4 col-12"><p>6 Février 1980</p></div>
+                    <div class="col-md-4 col-12"><p>5 Rue Robert Lecorner</p>
+                      <p>14100 St Martin de la Lieue</p>
+                    </div>
+                    <div class="col-md-4 col-12"><p>06.03.98.27.13</p></div>
+                  </div>
+                  <div class="row fontduality">
+                    <div class="col-12"><p>sylvain.vascaut@gmail.com</p></div>
+                  </div>
                 </div>
+
                 <div class="col-md-4 offset-md-1 col-12 text-center">
                   <h2 class="fonttravel text-blood">Others creations</h2>
                   <img class="w60" src="assets/img/barre2.svg" alt="barre2">
                   <div>
                   <button type=button class="btn btn-dark mt-5 fontduality text-grey" data-toggle="modal" data-target="#crea">"Schow Must Go On!"</button></div>
+
+                  <div class="modal fade" id="crea" tabindex="-1" role="dialog" aria-labelledby="modalInfo" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header bg-dark">
+                          <h5 class="modal-title fonttravel text-grey" id="Info">Others creations</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+
+                        </div>
+                        <div class="modal-footer bg-dark">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">X Fermer</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col1 none">
+                  <img src="assets/img/bulletbottom.svg" alt="bullet">                
                 </div>
               </div>
             </div>
