@@ -22,11 +22,34 @@ body{
     font-family:"duality";
     src: url(../font/duality.ttf);
 }
+/*.row {
+    border: 1px solid #7451EB;
+    padding: 3px;
+  }
+  [class^="col"] {
+    padding: 1rem;
+    border: 2px solid #3FA5DB;
+  }*/
 header i:hover{
     color : #c00000;
 }
+.cogris{
+    color : grey;
+}
 a:hover{
     color : #c00000;
+}
+.toto{
+    box-shadow: #631111 8px 8px 10px;
+}
+.tata{
+    opacity: 0.8;
+}
+.tutu{
+    font-size: 1.3em;
+}
+dl{
+    font-size: 1.3em;
 }
 .fontbleed{
     font-family: "bleedingcowboys";
@@ -87,14 +110,6 @@ a:hover{
 .modal-body{
     background :url(../img/bgparchemin.jpg) ;
     background-size: cover;
-}
-.flexspace{
-    display : flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.border{
-    border : solid red 1px;
 }
 
 @media screen AND (max-width:480px){
