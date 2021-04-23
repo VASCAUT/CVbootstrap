@@ -30,6 +30,38 @@ body{
     padding: 1rem;
     border: 2px solid #3FA5DB;
   }*/
+.maing{
+    transform : translate(0,0);
+    animation-name: animMaing;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+.maind{
+    transform : translate(0,0);
+    animation-name: animMaind;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+.revog{
+    transform : translate(0,0);
+    animation-name: animRevog;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+.revod{
+    transform : translate(0,0);
+    animation-name: animRevod;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
 header i:hover{
     color : #c00000;
 }
@@ -50,6 +82,9 @@ a:hover{
 }
 dl{
     font-size: 1.3em;
+}
+#photo:hover{
+    cursor : url(../img/cursor2.png), pointer;
 }
 .fontbleed{
     font-family: "bleedingcowboys";
@@ -74,6 +109,9 @@ dl{
 .textjustify{
     text-align: justify;
 }
+.w100{
+    width : 100%;
+}
 .w60{
     width : 60%;
 }
@@ -96,7 +134,7 @@ dl{
     transform: translateY(-50%);    
 }
 .anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
+  animation: typewriter 8s steps(44) 1s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
 }
 @keyframes typewriter{
@@ -107,11 +145,42 @@ dl{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
 }
+@keyframes animMaing {
+    0% {
+        transform: translate(0, 0);}
+    50% {
+        transform: translate(80px, 0);}
+    100% {
+        transform: translate(0, 0);}
+}
+@keyframes animMaind {
+    0% {
+        transform: translate(80px, 0);}
+    50% {
+        transform: translate(0, 0);}
+    100% {
+        transform: translate(80px, 0);}
+}
+@keyframes animRevog {
+    0% {
+        transform: translate(0, 0);}
+    50% {
+        transform: translate(200px, 0);}
+    100% {
+        transform: translate(0, 0);}
+}
+@keyframes animRevod {
+    0% {
+        transform: translate(200px, 0);}
+    50% {
+        transform: translate(0, 0);}
+    100% {
+        transform: translate(200px, 0);}
+}
 .modal-body{
     background :url(../img/bgparchemin.jpg) ;
     background-size: cover;
 }
-
 @media screen AND (max-width:480px){
     .none{
         display : none;

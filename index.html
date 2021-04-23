@@ -11,19 +11,23 @@
     <meta name="description" content="Ne cherchez plus, ici THE best">
     <title>CV VASCAUT Sylvain</title>
 </head>
+
 <script>
 var tir1 = new Audio();
 tir1.src = "assets/sound/SFB-armtir.mp3";
 var tir2 = new Audio();
 tir2.src = "assets/sound/SFB-arme-pompe.mp3";
+var phrase = new Audio();
+phrase.src = "assets/sound/phrase.mp3";
 </script>
+
 <body onmousedown="tir1.play()">
 
     <header>
         <div class="container-fluid mb-5">
         <div class="col-12">
             <div class="row bg-dark">
-                    <div class="col-9">
+                    <div class="col-9 fontduality">
                       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
@@ -84,12 +88,20 @@ tir2.src = "assets/sound/SFB-arme-pompe.mp3";
         </div>
         <div class="row mt-5">
             <div class="col-md-8 col-12">
-                <div class="row flexcenter"><img class="w10 none" src="assets/img/maing.svg" alt="maing"><img src="assets/img/wanted.svg" class="w60" alt="wanted"><img  class="w10 none" src="assets/img/maind.svg" alt="maind"></div>
+                <div class="container-fluid">
+                  <div class="row">
+                <div class="col-2 align-self-center"><img class="w60 none maing" src="assets/img/maing.svg" alt="maing">
+                </div>
+                <div class="col-8 flexcenter"><img src="assets/img/wanted.svg" class="w100" alt="wanted">
+                </div>
+                <div class="col-2 align-self-center"><img  class="w60 none maind" src="assets/img/maind.svg" alt="maind"></div>
+              </div>
+            </div>
                 <div class="row flexcenter mb-5"><img src="assets/img/barre1.svg" alt="barre1"></div>
                 <div class="row flexcenter"><h1 class="fontbleed mt-5 line-1 anim-typewriter">VASCAUT Sylvain</h1></div>
             </div>
             <div class="col-md-4 col-12 text-center">
-                <div class="col-12"><img src="assets/img/photo.svg" alt="photo"></div>
+                <div class="col-12"><img onmousedown="phrase.play()" src="assets/img/photo.svg" alt="photo" id="photo"></div>
                 <button type=button class="btn btn-dark mt-5 fontduality text-grey" data-toggle="modal" data-target="#info"><p class="tutu">"Billy The Skill"</p></button>
 
                 <div class="modal fade" id="info" tabindex="-1" role="dialog" aria-labelledby="modalInfo" aria-hidden="true">
@@ -121,12 +133,12 @@ tir2.src = "assets/sound/SFB-arme-pompe.mp3";
         <div class="row flexcenter mt-5"><img class="w60" src="assets/img/barre2.svg" alt="barre2"></div>
     </header>
 
-    <main class="mt-5">
+    <main class="mt-5 mr-5">
       <div class="col-12 mt-2 flexcenter"><img class="w20" src="assets/img/revolver2.svg" alt="revolver"></div>
         <div class="container-fluid mt-5">
             <div class="col-12">
                 <div class="row">
-                    <div class="col-md-4 offset-md-1 col-12 toto">.
+                    <div class="col-md-4 offset-md-1 col-12 toto mt-5">.
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner">
@@ -178,16 +190,16 @@ tir2.src = "assets/sound/SFB-arme-pompe.mp3";
                           </div>
                     </div>
                     <div class="co1 none"><img src="assets/img/bulletheader.svg" alt="bullets"></div>
-                    <div class="col-md-6 col-12 bg-dark text-grey">
+                    <div class="col-md-6 col-12 bg-dark text-grey mt-5">
                         <h2 class="fonttravel text-center">Devenir web designer, graphiste, infographiste</h2>
                         <h3 class="fontduality textjustify mt-5">En reconversion vers les metiers du web design, du graphisme et de l'infographie, après plus de 10 ans d'expérience dans le conseil et le commerce, je souhaite pouvoir intégrer une équipe pouvant donner une nouvelle dimension à ma carrière professionnelle.</h3>
                     </div>
                 </div>
             </div>
             <div class="col-12 mt-5 flexcenter"><img class="w20" src="assets/img/revolver.svg" alt="revolver"></div>
-            <div class="col-12 mt-5">
+            <div class="col-12">
               <div class="row">
-                <div class="col-md-6 col-12 text-center" id="formation">
+                <div class="col-md-6 col-12 text-center mt-5" id="formation">
                 <h2 class="fonttravel text-blood">Schooling</h2>
                 <img class="w60" src="assets/img/barre2.svg" alt="barre2">
                 <dl  class="fontduality mt-5 text-dark">
@@ -210,7 +222,7 @@ tir2.src = "assets/sound/SFB-arme-pompe.mp3";
                     </dt>
                   </dl>
                 </div>
-                <div class="col-md-6 col-12 text-center" id="experience">
+                <div class="col-md-6 col-12 text-center mt-5" id="experience">
                   <h2 class="fonttravel text-blood">Experience</h2>
                   <img class="w60" src="assets/img/barre2.svg" alt="barre2">
                   <dl  class="fontduality mt-5 text-dark">
@@ -232,13 +244,13 @@ tir2.src = "assets/sound/SFB-arme-pompe.mp3";
               </div>
             </div>
             <div class="col-12 mt-2 none flexcenter">
-              <div class="col-md-4"><img src="assets/img/revolverg.svg" alt="revolver"></div>
+              <div class="col-md-4"><img class="revog" src="assets/img/revolverg.svg" alt="revolver"></div>
               <div class="col-md-4"><img src="assets/img/bulletmain2.svg" alt="bullet"></div>
-              <div class="col-md-4 text-right"><img src="assets/img/revolverd.svg" alt="revolver"></div>
+              <div class="col-md-4"><img class="revod" src="assets/img/revolverd.svg" alt="revolver"></div>
             </div>
-            <div class="col-12 mt-5">
+            <div class="col-12">
               <div class="row">
-                <div class="col-md-4 col-12 text-center" id="logiciel">
+                <div class="col-md-4 col-12 text-center mt-5" id="logiciel">
                 <h2 class="fonttravel text-blood">Softwares</h2>
                 <img class="w60" src="assets/img/barre2.svg" alt="barre2">
                 <dl class="fontduality mt-5 text-dark">
@@ -246,7 +258,7 @@ tir2.src = "assets/sound/SFB-arme-pompe.mp3";
                   <dt class="mt-5"><img src="assets/img/excel.svg" alt="excel"> <img src="assets/img/word.svg" alt="word"> <img src="assets/img/openoffice.svg" alt="openoffice"> <img src="assets/img/silog.svg" alt="silog"><br>Tableur et traitement de texte, ERP (Silog) : utilisation normale</dt>
                   </dl>
                 </div>
-                <div class="col-md-4 col-12 text-center" id="atout">
+                <div class="col-md-4 col-12 text-center mt-5" id="atout">
                   <h2 class="fonttravel text-blood">Assets</h2>
                   <img class="w60" src="assets/img/barre2.svg" alt="barre2">
                   <dl class="fontduality mt-5 text-dark">
@@ -257,7 +269,7 @@ tir2.src = "assets/sound/SFB-arme-pompe.mp3";
                     <dt class="mt-4">Force de proposition</dt>
                   </dl>
                 </div>
-                <div class="col-md-4 col-12 text-center" id="interet">
+                <div class="col-md-4 col-12 text-center mt-5" id="interet">
                   <h2 class="fonttravel text-blood">Interest</h2>
                   <img class="w60" src="assets/img/barre2.svg" alt="barre2">
                   <dl class="fontduality mt-5 text-dark">
@@ -270,31 +282,32 @@ tir2.src = "assets/sound/SFB-arme-pompe.mp3";
               </div>
             </div>
             <div class="col-12 mt-2 none flexcenter">
-              <div class="col-md-4"><img src="assets/img/revolverg.svg" alt="revolver"></div>
+              <div class="col-md-4"><img class="revog" src="assets/img/revolverg.svg" alt="revolver"></div>
               <div class="col-md-4"><img src="" alt=""></div>
-              <div class="col-md-4 text-right"><img src="assets/img/revolverd.svg" alt="revolver"></div>
+              <div class="col-md-4"><img class="revod" src="assets/img/revolverd.svg" alt="revolver"></div>
             </div>
-            <div class="col-12 mt-5">
+            <div class="col-12">
               <div class="row">
-                <div class="col-md-6 col-12 bg-dark text-grey text-center">
+                <div class="col-md-7 col-12 bg-dark text-grey text-center mt-5">
                   <div class="row">
                     <div class="col-12">
                       <h2 class="fonttravel text-grey">Contact</h2>
+                      <img class="w60" src="assets/img/barre3.svg" alt="barre3">
                     </div>
                   </div>
                   <div class="row fontduality mt-5" id="contact">
-                    <div class="col-md-4 col-12"><p class="tutu">6 Février 1980</p></div>
-                    <div class="col-md-4 col-12"><p class="tutu">5 Rue Robert Lecorner</p>
+                    <div class="col-md-4 col-12"><p class="tutu"><i class="fas fa-calendar-check"></i> 6 Février 1980</p></div>
+                    <div class="col-md-4 col-12"><p class="tutu"> <i class="fas fa-map-marked-alt"></i> 5 Rue Robert Lecorner</p>
                       <p class="tutu">14100 St Martin de la Lieue</p>
                     </div>
-                    <div class="col-md-4 col-12"><p class="tutu">06.03.98.27.13</p></div>
+                    <div class="col-md-4 col-12"><p class="tutu"><i class="fas fa-phone-alt"></i> 06.03.98.27.13</p></div>
                   </div>
                   <div class="row fontduality mt-3">
-                    <div class="col-12"><p class="tutu">sylvain.vascaut@gmail.com</p></div>
+                    <div class="col-12"><p class="tutu"><i class="fas fa-envelope"></i> <a class="text-grey" href="mailto:sylvain.vascaut@gmail.com" >sylvain.vascaut@gmail.com</a></p></div>
                   </div>
                 </div>
 
-                <div class="col-md-4 offset-md-1 col-12 text-center" id="crea2">
+                <div class="col-md-4 col-12 text-center mt-5" id="crea2">
                   <h2 class="fonttravel text-blood">Others creations</h2>
                   <img class="w60" src="assets/img/barre2.svg" alt="barre2">
                   <div>
