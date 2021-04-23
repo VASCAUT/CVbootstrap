@@ -179,7 +179,7 @@ dl{
     background :url(../img/bgparchemin.jpg) ;
     background-size: cover;
 }
-@media screen AND (max-width:480px){
+@media screen AND (max-width:640px){
     .none{
         display : none;
     }
