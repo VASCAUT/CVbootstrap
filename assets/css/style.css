@@ -70,13 +70,17 @@ a:hover{
     color : #c00000;
 }
 .toto{
-    box-shadow: #631111 8px 8px 10px;
+    border: solid 2px #631111 ;
+    padding : 50px;
 }
 .tata{
     opacity: 0.8;
 }
 .tutu{
     font-size: 1.3em;
+}
+.truc{
+    padding : 50px;
 }
 dl{
     font-size: 1.3em;
@@ -186,9 +190,18 @@ dl{
         display : none;
     }
     .line-1{
-        font-size : 300%;
+        font-size : 200%;
     }
     .w20{
         width : 50%;
+    }
+    #photo{
+        cursor: inherit;
+    }
+    .w50{
+        width : 60%;
+    }
+    .truc{
+        padding : 10px;
     }
 }
