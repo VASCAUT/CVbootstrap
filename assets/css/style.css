@@ -5,9 +5,7 @@ body{
     background-repeat: no-repeat;
     color: #4c525a;
     min-height: 100vh;
-    margin-right: auto;
-    margin-left: auto;
-    width : 95%;
+    width : 100%;
     cursor : url(../img/cursor.png), pointer;
 }
 @font-face {
@@ -187,5 +185,8 @@ dl{
     }
     .line-1{
         font-size : 300%;
+    }
+    .w20{
+        width : 50%;
     }
 }
