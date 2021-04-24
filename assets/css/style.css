@@ -68,6 +68,7 @@ header i:hover{
 }
 a:hover{
     color : #c00000;
+    cursor : url(../img/cursor2.png), pointer;
 }
 .toto{
     border: solid 2px #631111 ;
@@ -86,6 +87,9 @@ dl{
     font-size: 1.3em;
 }
 #photo:hover{
+    cursor : url(../img/cursor2.png), pointer;
+}
+.cible:hover{
     cursor : url(../img/cursor2.png), pointer;
 }
 .fontbleed{

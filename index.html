@@ -12,7 +12,7 @@
     <meta property="og:title" content="CV VASCAUT Sylvain" />
     <meta property="og:description" content="Ne cherchez plus, ici THE best in Ouest" />
     <meta property="og:url" content="https://vascaut.github.io/CVbootstrap/" />
-    <meta property="og:image" content="http://https://vascaut.github.io/CVbootstrap/wanted.svg" />
+    <meta property="og:image" content="http://https://vascaut.github.io/CVbootstrap/wanted.png" />
     <title>CV VASCAUT Sylvain</title>
 </head>
 <script>
@@ -23,7 +23,7 @@ tir2.src = "assets/sound/SFB-arme-pompe.mp3";
 var phrase = new Audio();
 phrase.src = "assets/sound/phrase.mp3";
 </script>
-<body onmousedown="tir1.play()">
+<body>
     <header>
         <div class="container-fluid mb-5">
         <div class="col-12">
@@ -33,37 +33,37 @@ phrase.src = "assets/sound/phrase.mp3";
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse text-grey" id="navbarNavDropdown">
+                        <div class="collapse navbar-collapse text-grey cible" id="navbarNavDropdown">
                           <ul class="navbar-nav text-grey">
                             <li class="nav-item active">
-                              <a class="nav-link" href="#contact">Contact<span class="sr-only">(current)</span></a>
+                              <a class="nav-link" onmousedown="tir1.play()" href="#contact">Contact<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#formation">Formation</a>
+                              <a class="nav-link" onmousedown="tir1.play()" href="#formation">Formation</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#experience">Expériences</a>
+                              <a class="nav-link" onmousedown="tir1.play()" href="#experience">Expériences</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#atout">Atouts</a>
+                              <a class="nav-link" onmousedown="tir1.play()" href="#atout">Atouts</a>
+                            </li>
+                            <li class="nav-item ">
+                              <a class="nav-link" onmousedown="tir1.play()" href="#logiciel">Logiciels</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#logiciel">Logiciels</a>
+                              <a class="nav-link" onmousedown="tir1.play()" href="#interet">centre d'intérêts</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#interet">centre d'intérêts</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#crea2">Créations</a>
+                              <a class="nav-link" onmousedown="tir1.play()" href="#crea2">Créations</a>
                             </li>
                             <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <a class="nav-link dropdown-toggle" onmousedown="tir1.play()" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Liens
                               </a>
                               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="https://www.facebook.com/NiavlyS8o-100101345104570" target="_blank"><i class="fab fa-facebook-square"> facebook</i></a>
-                                <a class="dropdown-item" href="https://www.linkedin.com/in/vascaut-sylvain-5a1092165/" target="_blank"><i class="fab fa-linkedin"> linkedin</i></a>
-                                <a class="dropdown-item" href="https://www.instagram.com/niavlys80/?hl=fr" target="_blank"><i class="fab fa-instagram"> instagram</i></a>
+                                <a class="dropdown-item" onmousedown="tir1.play()" href="https://www.facebook.com/NiavlyS8o-100101345104570" target="_blank"><i class="fab fa-facebook-square"> facebook</i></a>
+                                <a class="dropdown-item" onmousedown="tir1.play()" href="https://www.linkedin.com/in/vascaut-sylvain-5a1092165/" target="_blank"><i class="fab fa-linkedin"> linkedin</i></a>
+                                <a class="dropdown-item" onmousedown="tir1.play()" href="https://www.instagram.com/niavlys80/?hl=fr" target="_blank"><i class="fab fa-instagram"> instagram</i></a>
                               </div>
                             </li>
                             <li class="nav-item">
@@ -102,8 +102,8 @@ phrase.src = "assets/sound/phrase.mp3";
                 <div class="row flexcenter"><h1 class="fontbleed mt-5 line-1 anim-typewriter">VASCAUT Sylvain</h1></div>
             </div>
             <div class="col-md-4 col-12 text-center">
-                <div class="col-12"><img class="w50" onmousedown="phrase.play()" src="assets/img/photo.svg" alt="photo" id="photo"></div>
-                <button type=button class="btn btn-dark mt-5 fontduality text-grey" data-toggle="modal" data-target="#info"><p class="tutu">"Billy The Skill"</p></button>
+                <div class="col-12"><img class="w50" onmousedown="phrase.play()" src="assets/img/photo.png" alt="photo" id="photo"></div>
+                <button onmousedown="tir1.play()" type=button class="btn btn-dark mt-5 fontduality text-grey" data-toggle="modal" data-target="#info"><p class="tutu cible">"Billy The Skill"</p></button>
                 <div class="modal fade" id="info" tabindex="-1" role="dialog" aria-labelledby="modalInfo" aria-hidden="true">
                   <div class="modal-dialog" role="document">
                     <div class="modal-content">
@@ -145,37 +145,37 @@ phrase.src = "assets/sound/phrase.mp3";
                                 <div class="carousel-inner">
                                   <div class="carousel-item active">
                                     <img class="d-block w-100" src="assets/img/screenshootajnb.svg" alt="1slide">
-                                    <div class="carousel-caption d-none d-block bg-dark tata">
-                                        <h5 class="text-grey fonttravel">Scrum Master sur ce projet <a class="text-grey" href="https://lamanu.fr/" target="_blank">La Manu</a> en groupe</h5>
-                                        <p class="text-grey fontduality">Lien <a class="text-grey" href="https://vascaut.github.io/projet-aj-lamanu/index.html" target="_blank">Github</a></p>
+                                    <div class="carousel-md-caption d-none d-block bg-dark tata">
+                                        <h5 class="text-grey fonttravel">Scrum Master sur ce projet <a onmousedown="tir1.play()" class="text-grey" href="https://lamanu.fr/" target="_blank">La Manu</a> en groupe</h5>
+                                        <p class="text-grey fontduality">Lien <a class="text-grey" onmousedown="tir1.play()" href="https://vascaut.github.io/projet-aj-lamanu/index.html" target="_blank">Github</a></p>
                                       </div>
                                   </div>
                                   <div class="carousel-item">
                                     <img class="d-block w-100" src="assets/img/screenshootmaqajnb.svg" alt="2slide">
-                                    <div class="carousel-caption d-none d-block bg-dark tata">
-                                        <h5 class="text-grey fonttravel">Projet <a class="text-grey" href="https://lamanu.fr/" target="_blank">La Manu</a> en groupe</h5>
-                                        <p class="text-grey fontduality">Lien <a class="text-grey" href="https://xd.adobe.com/view/4649131f-1fed-4ee5-bf82-24f2013a5e98-131a/?fullscreen" target="_blank">Prototype Adobe Xd</a></p>
+                                    <div class="carousel-md-caption d-none d-block bg-dark tata">
+                                        <h5 class="text-grey fonttravel">Projet <a class="text-grey" onmousedown="tir1.play()" href="https://lamanu.fr/" target="_blank">La Manu</a> en groupe</h5>
+                                        <p class="text-grey fontduality">Lien <a class="text-grey" onmousedown="tir1.play()" href="https://xd.adobe.com/view/4649131f-1fed-4ee5-bf82-24f2013a5e98-131a/?fullscreen" target="_blank">Prototype Adobe Xd</a></p>
                                       </div>
                                   </div>
                                   <div class="carousel-item">
                                     <img class="d-block w-100" src="assets/img/voyageandco.svg" alt="3slide">
-                                    <div class="carousel-caption d-none d-block bg-dark tata">
-                                        <h5 class="text-grey fonttravel">Exercice <a class="text-grey" href="https://lamanu.fr/" target="_blank">La Manu</a> Voyage & Co</h5>
-                                        <p class="text-grey fontduality">Lien <a class="text-grey" href="https://vascaut.github.io/voyageandco/" target="_blank">Github</a></p>
+                                    <div class="carousel-md-caption d-none d-block bg-dark tata">
+                                        <h5 class="text-grey fonttravel">Exercice <a class="text-grey" onmousedown="tir1.play()" href="https://lamanu.fr/" target="_blank">La Manu</a> Voyage & Co</h5>
+                                        <p class="text-grey fontduality">Lien <a class="text-grey" onmousedown="tir1.play()" href="https://vascaut.github.io/voyageandco/" target="_blank">Github</a></p>
                                       </div>
                                   </div>
                                   <div class="carousel-item">
                                     <img class="d-block w-100" src="assets/img/petitspainperdu.svg" alt="4slide">
-                                    <div class="carousel-caption d-none d-block bg-dark tata">
-                                        <h5 class="text-grey fonttravel">Test Rédaction Web pour admission en stage <a class="text-grey" href="https://maxelik.com/" target="_blank">chez Maxelik</a> spécialiste SEO/SEA</h5>
-                                        <p class="text-grey fontduality">Lien <a class="text-grey" href="https://zupimages.net/viewer.php?id=21/16/ci90.png" target="_blank">zupimages.net</a></p>
+                                    <div class="carousel-md-caption d-none d-block bg-dark tata">
+                                        <h5 class="text-grey fonttravel">Test Rédaction Web pour admission en stage <a class="text-grey" onmousedown="tir1.play()" href="https://maxelik.com/" target="_blank">chez Maxelik</a> spécialiste SEO/SEA</h5>
+                                        <p class="text-grey fontduality">Lien <a class="text-grey" onmousedown="tir1.play()" href="https://zupimages.net/viewer.php?id=21/16/ci90.png" target="_blank">zupimages.net</a></p>
                                       </div>
                                   </div>
                                   <div class="carousel-item">
                                     <img class="d-block w-100" src="assets/img/1ercv.svg" alt="5slide">
-                                    <div class="carousel-caption d-none d-block bg-dark tata">
+                                    <div class="carousel-md-caption d-none d-block bg-dark tata">
                                         <h5 class="text-grey fonttravel">1er essai CV en html et css</h5>
-                                        <p class="text-grey fontduality">Lien <a class="text-grey" href="https://vascaut.github.io/persocv/" target="_blank">Github</a></p>
+                                        <p class="text-grey fontduality">Lien <a class="text-grey" onmousedown="tir1.play()" href="https://vascaut.github.io/persocv/" target="_blank">Github</a></p>
                                       </div>
                                   </div>
                                 </div>
@@ -192,7 +192,9 @@ phrase.src = "assets/sound/phrase.mp3";
                     </div>
                     <div class="co1 none"><img src="assets/img/bulletheader.svg" alt="bullets"></div>
                     <div class="col-md-6 col-12 bg-dark text-grey mt-5 tata truc align-self-center">
-                        <h2 class="fonttravel text-center">Devenir web designer, graphiste, infographiste</h2>
+                      <div class="text-center">
+                        <h2 class="fonttravel">Devenir web designer, graphiste, infographiste</h2>
+                        <img class="w60" src="assets/img/barre3.svg" alt="barre3"></div>
                         <h3 class="fontduality textjustify mt-5">En reconversion vers les metiers du web design, du graphisme et de l'infographie, après plus de 10 ans d'expérience dans le conseil et le commerce, je souhaite pouvoir intégrer une équipe pouvant donner une nouvelle dimension à ma carrière professionnelle.</h3>
                     </div>
                 </div>
@@ -204,7 +206,7 @@ phrase.src = "assets/sound/phrase.mp3";
                 <h2 class="fonttravel text-blood">Schooling</h2>
                 <img class="w60" src="assets/img/barre2.svg" alt="barre2">
                 <dl  class="fontduality mt-5 text-dark">
-                  <dt>2021 : Entrée en formation du 29 mars au 28 septembre pour l'obtention du Titre professionnel web designer et communication digitale à <a class="text-grey" href="https://lamanu.fr/" target="_blank">La Manu</a> au Havre ;
+                  <dt>2021 : Entrée en formation du 29 mars au 28 septembre pour l'obtention du Titre professionnel web designer et communication digitale à <a class="text-grey" onmousedown="tir1.play()" href="https://lamanu.fr/" target="_blank">La Manu</a> au Havre ;
                     <dd>Elaborer le design graphique d'un outil de communication numérique</dd>
                     <dd>Réaliser un outil de communication numérique</dd>
                     <dd>Contribuer à la gestion et au suivi d'un projet de communication numérique</dd>
@@ -228,16 +230,16 @@ phrase.src = "assets/sound/phrase.mp3";
                   <img class="w60" src="assets/img/barre2.svg" alt="barre2">
                   <dl  class="fontduality mt-5 text-dark">
                     <dt>De juillet 2019 à octobre 2020 : Assistant Administration des Ventes (ADV)
-                      <dd><img src="assets/img/Alliansys.svg" alt="logo alliansys"><a href="https://www.alliansys.fr/" class="text-grey" target="_blank">Alliansys</a> à Honfleur</dd>
+                      <dd><img src="assets/img/Alliansys.svg" alt="logo alliansys"><a href="https://www.alliansys.fr/" class="text-grey" onmousedown="tir1.play()" target="_blank">Alliansys</a> à Honfleur</dd>
                       </dt>
                     <dt class="mt-4">De juillet 2008 août 2019 : Assistant commercial et administatif Expert
-                      <dd><img src="assets/img/carglass.svg" alt="logo carglass"><a href="https://www.carglass.fr/" class="text-grey" target="_blank">Carglass</a> le Havre</dd>
+                      <dd><img src="assets/img/carglass.svg" alt="logo carglass"><a href="https://www.carglass.fr/" class="text-grey" onmousedown="tir1.play()" target="_blank">Carglass</a> le Havre</dd>
                       </dt>
                     <dt class="mt-4">De mai 2005 à juillet 2008 : Manager
-                      <dd><img src="assets/img/mcdo.svg" alt="logo carglass"><a href="https://www.mcdonalds.fr/" class="text-grey" target="_blank">Mc Donalds</a> à Honfleur</dd>
+                      <dd><img src="assets/img/mcdo.svg" alt="logo carglass"><a href="https://www.mcdonalds.fr/" onmousedown="tir1.play()" class="text-grey" target="_blank">Mc Donalds</a> à Honfleur</dd>
                       </dt>
                     <dt class="mt-4">De juillet 2003 à mai 2005 : Equipier polyvalent
-                      <dd><img src="assets/img/mcdo.svg" alt="logo carglass"><a href="https://www.mcdonalds.fr/" class="text-grey" target="_blank">Mc Donalds</a> Rouen-Mont Riboudet et Le Havre-Montivilliers</dd>
+                      <dd><img src="assets/img/mcdo.svg" alt="logo carglass"><a href="https://www.mcdonalds.fr/" onmousedown="tir1.play()" class="text-grey" target="_blank">Mc Donalds</a> Rouen-Mont Riboudet et Le Havre-Montivilliers</dd>
                       </dt>
                     </dl>
                     <dt class="mt-4"><img src="assets/img/bulletmain1.svg" alt="bullet"></dt>
@@ -304,14 +306,14 @@ phrase.src = "assets/sound/phrase.mp3";
                     <div class="col-md-4 col-12"><p class="tutu"><i class="fas fa-phone-alt"></i> 06.03.98.27.13</p></div>
                   </div>
                   <div class="row fontduality mt-3">
-                    <div class="col-12"><p class="tutu"><i class="fas fa-envelope"></i> <a class="text-grey" href="mailto:sylvain.vascaut@gmail.com" >sylvain.vascaut@gmail.com</a></p></div>
+                    <div class="col-12"><p class="tutu"><i class="fas fa-envelope"></i> <a class="text-grey" onmousedown="tir1.play()"  href="mailto:sylvain.vascaut@gmail.com" >sylvain.vascaut@gmail.com</a></p></div>
                   </div>
                 </div>
                 <div class="col-md-4 col-12 text-center mt-5" id="crea2">
                   <h2 class="fonttravel text-blood">Others creations</h2>
                   <img class="w60" src="assets/img/barre2.svg" alt="barre2">
                   <div>
-                  <button onmousedown="tir1.play()" type=button class="btn btn-dark mt-5 fontduality text-grey" data-toggle="modal" data-target="#crea"><p class="tutu">Show Must Go On!"</p></button></div>
+                  <button onmousedown="tir1.play()" type=button class="btn btn-dark mt-5 fontduality text-grey" data-toggle="modal" data-target="#crea"><p class="tutu cible">Show Must Go On!"</p></button></div>
                   <div class="modal fade" id="crea" tabindex="-1" role="dialog" aria-labelledby="modalInfo" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                       <div class="modal-content">
@@ -451,7 +453,7 @@ phrase.src = "assets/sound/phrase.mp3";
       <div class="row">
         <div class="col-12">
           <div class="col-md-1 offset-md-10 col-12">
-            <a href="index.html" class="fontduality"><i class="fas fa-chevron-up display-1 text-dark"></i></a>
+            <a href="index.html" onmousedown="tir2.play()" class="fontduality"><i class="fas fa-chevron-up display-1 text-dark"></i></a>
           </div>
         </div>
       </div>
