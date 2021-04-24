@@ -14,7 +14,10 @@
    height="30"
    viewBox="0 0 30.000001 30"
    sodipodi:docname="anglais.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:export-filename="C:\wamp64\www\lamanu\cv\assets\img\anglais.png"
+   inkscape:export-xdpi="100"
+   inkscape:export-ydpi="100">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -23,7 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -128,16 +131,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1904"
-     inkscape:window-height="1001"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="7.158249"
+     inkscape:zoom="7.234098"
      inkscape:cx="34.723679"
      inkscape:cy="48.155449"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      inkscape:current-layer="g10"
      inkscape:document-rotation="0" />
   <g
