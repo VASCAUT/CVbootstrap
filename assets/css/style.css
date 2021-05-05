@@ -6,132 +6,98 @@ body{
     color: #4c525a;
     min-height: 100vh;
     width : 100%;
-    cursor : url(../img/cursor.png), pointer;
-}
+    cursor : url(../img/cursor.png), pointer;}
 @font-face {
     font-family: "bleedingcowboys";
-    src: url(../font/bleedingcowboys.ttf);
-}
+    src: url(../font/bleedingcowboys.ttf);}
 @font-face {
     font-family: "travelingtypewriter";
-    src: url(../font/travelingtypewriter.ttf);
-}
+    src: url(../font/travelingtypewriter.ttf);}
 @font-face {
     font-family:"duality";
-    src: url(../font/duality.ttf);
-}
+    src: url(../font/duality.ttf);}
+.reveal{
+    opacity : 0;
+    transform : translateY(-30px);}
+.reveal-visible{
+    opacity : 1;
+    transform : translateY(0);
+    transition : .8s cubic-bezier(.5, 0, 0, 1);}
+.two{transition-delay: .1s;}
+.three{transition-delay: .2s;}
+.four{transition-delay: .3s;}
 /*.row {
     border: 1px solid #7451EB;
-    padding: 3px;
-  }
+    padding: 3px;}
   [class^="col"] {
     padding: 1rem;
-    border: 2px solid #3FA5DB;
-  }*/
+    border: 2px solid #3FA5DB;}*/
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 20px;
+    width: 20px;
+    outline: #631111;
+    background-color: #631111;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid #631111;}
 .maing{
     transform : translate(0,0);
     animation-name: animMaing;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-delay: 0s;
-    animation-iteration-count: infinite;
-}
+    animation-iteration-count: infinite;}
 .maind{
     transform : translate(0,0);
     animation-name: animMaind;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-delay: 0s;
-    animation-iteration-count: infinite;
-}
+    animation-iteration-count: infinite;}
 .revog{
     transform : translate(0,0);
     animation-name: animRevog;
     animation-duration: 4s;
     animation-timing-function: linear;
     animation-delay: 0s;
-    animation-iteration-count: infinite;
-}
+    animation-iteration-count: infinite;}
 .revod{
     transform : translate(0,0);
     animation-name: animRevod;
     animation-duration: 4s;
     animation-timing-function: linear;
     animation-delay: 0s;
-    animation-iteration-count: infinite;
-}
-header i:hover{
-    color : #c00000;
-}
-.cogris{
-    color : grey;
-}
+    animation-iteration-count: infinite;}
+header i:hover{color : #c00000;}
+.cogris{color : grey;}
 a:hover{
     color : #c00000;
-    cursor : url(../img/cursor2.png), pointer;
-}
+    cursor : url(../img/cursor2.png), pointer;}
 .toto{
     border: solid 2px #631111 ;
-    padding : 50px;
-}
-.tata{
-    opacity: 0.8;
-}
-.tutu{
-    font-size: 1.3em;
-}
-.truc{
-    padding : 50px;
-}
-dl{
-    font-size: 1.3em;
-}
-#photo:hover{
-    cursor : url(../img/cursor2.png), pointer;
-}
-.cible:hover{
-    cursor : url(../img/cursor2.png), pointer;
-}
-.fontbleed{
-    font-family: "bleedingcowboys";
-}
-.fontduality{
-    font-family: "duality";
-}
-.fonttravel{
-    font-family: "travelingtypewriter";
-}
+    padding : 50px;}
+.tata{opacity: 0.8;}
+.tutu{font-size: 1.3em;}
+.truc{padding : 50px;}
+dl{font-size: 1.3em;}
+#photo:hover{cursor : url(../img/cursor2.png), pointer;}
+.cible:hover{cursor : url(../img/cursor2.png), pointer;}
+.fontbleed{font-family: "bleedingcowboys";}
+.fontduality{font-family: "duality";}
+.fonttravel{font-family: "travelingtypewriter";}
 .flexcenter{
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-.text-grey{
-    color : #bdbdbd;
-}
-.text-blood{
-   color : #631111;
-}
-.textjustify{
-    text-align: justify;
-}
-.w100{
-    width : 100%;
-}
-.w60{
-    width : 60%;
-}
-.w10{
-    width : 10%;
-}.w50{
-    width : 50%;
-}
-.w20{
-    width : 20%;
-}
-.textbold{
-    font-weight: bold;
-}
+    align-items: center;}
+.text-grey{color : #bdbdbd;}
+.text-blood{color : #631111;}
+.textjustify{text-align: justify;}
+.w100{width : 100%;}
+.w60{width : 60%;}
+.w10{width : 10%;}
+.w50{width : 50%;}
+.w20{width : 20%;}
+.textbold{font-weight: bold;}
 .line-1{
     position: relative; 
     width: 24em;
@@ -139,73 +105,41 @@ dl{
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%);    
-}
+    transform: translateY(-50%);}
 .anim-typewriter{
   animation: typewriter 8s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
-}
+             blinkTextCursor 500ms steps(44) infinite normal;}
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 24em;}
-}
+  to{width: 24em;}}
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
-}
+  to{border-right-color: transparent;}}
 @keyframes animMaing {
-    0% {
-        transform: translate(0, 0);}
-    50% {
-        transform: translate(80px, 0);}
-    100% {
-        transform: translate(0, 0);}
-}
+    0% {transform: translate(0, 0);}
+    50% {transform: translate(80px, 0);}
+    100% {transform: translate(0, 0);}}
 @keyframes animMaind {
-    0% {
-        transform: translate(80px, 0);}
-    50% {
-        transform: translate(0, 0);}
-    100% {
-        transform: translate(80px, 0);}
-}
+    0% {transform: translate(80px, 0);}
+    50% {transform: translate(0, 0);}
+    100% {transform: translate(80px, 0);}}
 @keyframes animRevog {
-    0% {
-        transform: translate(0, 0);}
-    50% {
-        transform: translate(200px, 0);}
-    100% {
-        transform: translate(0, 0);}
-}
+    0% {transform: translate(0, 0);}
+    50% {transform: translate(200px, 0);}
+    100% {transform: translate(0, 0);}}
 @keyframes animRevod {
-    0% {
-        transform: translate(200px, 0);}
-    50% {
-        transform: translate(0, 0);}
-    100% {
-        transform: translate(200px, 0);}
-}
+    0% {transform: translate(200px, 0);}
+    50% {transform: translate(0, 0);}
+    100% {transform: translate(200px, 0);}}
 .modal-body{
     background :url(../img/bgparchemin.jpg) ;
-    background-size: cover;
-}
+    background-size: cover;}
+
 @media screen AND (max-width:640px){
-    .none{
-        display : none;
-    }
-    .line-1{
-        font-size : 200%;
-    }
-    .w20{
-        width : 50%;
-    }
-    #photo{
-        cursor: inherit;
-    }
-    .w50{
-        width : 60%;
-    }
-    .truc{
-        padding : 10px;
-    }
+    .none{display : none;}
+    .line-1{font-size : 200%;}
+    .w20{width : 50%;}
+    #photo{cursor: inherit;}
+    .w50{width : 60%;}
+    .truc{padding : 10px;}
 }
