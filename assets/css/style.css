@@ -16,6 +16,13 @@ body{
 @font-face {
     font-family:"duality";
     src: url(../font/duality.ttf);}
+#cadre{
+    background-image: url(../img/cadre.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
 .reveal{
     opacity : 0;
     transform : translateY(-30px);}

@@ -16,13 +16,8 @@ const observer = new IntersectionObserver(handleIntersect, options);
 document.querySelectorAll('.reveal').forEach(function(r) {
     observer.observe(r)})
 
-/*<audio autoplay controls>
-                                <source src="assets/sound/Faster-Tempo-2020-03-15_-_Western_Adverntures_-_David_Fesliyan.mp3" type="audio/mpeg">
-                              </audio>*/
-
 $('#sound').click(function () {
     var sound = new Audio();
     sound.src = "assets/sound/Faster-Tempo-2020-03-15_-_Western_Adverntures_-_David_Fesliyan.mp3";
     sound.play();
-    $('.sound').removeClass('d-none')
 })

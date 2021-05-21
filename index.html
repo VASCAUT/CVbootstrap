@@ -68,9 +68,6 @@ phrase.src = "assets/sound/phrase.mp3";
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" id="sound"><i class="fas fa-music"></i> Mettez vous dans l'ambiance<br></a>
-                              <audio autoplay controls class="sound d-none">
-                                <source src="assets/sound/Faster-Tempo-2020-03-15_-_Western_Adverntures_-_David_Fesliyan.mp3" type="audio/mpeg">
-                              </audio>
                             </li>
                           </ul>
                         </div>
@@ -102,9 +99,10 @@ phrase.src = "assets/sound/phrase.mp3";
                 <div class="row flexcenter mb-5"><img src="assets/img/barre1.svg" alt="barre1"></div>
                 <div class="row flexcenter"><h1 class="fontbleed mt-5 line-1 anim-typewriter">VASCAUT Sylvain</h1></div>
             </div>
-            <div class="col-md-4 col-12 text-center">
-                <div class="col-12"><img class="w50" onmousedown="phrase.play()" src="assets/img/photo.png" alt="photo" id="photo"></div>
-                <button onmousedown="tir1.play()" type=button class="btn btn-dark mt-5 fontduality text-grey" data-toggle="modal" data-target="#info"><p class="tutu cible">"Billy The Skill"</p></button>
+            <div class="col-md-4 col-12 text-center" id="cadre">
+                <div class="col-12">
+                    <img class="w50 mt-2 p-4" onmousedown="phrase.play()" src="assets/img/photo.png" alt="photo" id="photo"></div>
+                <button onmousedown="tir1.play()" type=button class="btn btn-dark fontduality text-grey" data-toggle="modal" data-target="#info"><p class="tutu cible ">"Billy The Skill"</p></button>
                 <div class="modal fade" id="info" tabindex="-1" role="dialog" aria-labelledby="modalInfo" aria-hidden="true">
                   <div class="modal-dialog" role="document">
                     <div class="modal-content">
@@ -478,7 +476,7 @@ phrase.src = "assets/sound/phrase.mp3";
             <a href="index.html" onmousedown="tir2.play()" class="fontduality"><i class="fas fa-chevron-up display-1 text-dark"></i></a></div>
       </div>
       <div class="row">
-        <div class="col-md-4 offset-md-1 col-12">Date de dernière MAJ 20/05/2021</div></div>
+        <div class="col-md-4 offset-md-1 col-12">Date de dernière MAJ 21/05/2021</div></div>
     </footer>
 <script src="https://kit.fontawesome.com/1a5f669fe2.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
