@@ -16,8 +16,13 @@ const observer = new IntersectionObserver(handleIntersect, options);
 document.querySelectorAll('.reveal').forEach(function(r) {
     observer.observe(r)})
 
+var sound = new Audio();
+sound.src = "assets/sound/Faster-Tempo-2020-03-15_-_Western_Adverntures_-_David_Fesliyan.mp3";
 $('#sound').click(function () {
-    var sound = new Audio();
-    sound.src = "assets/sound/Faster-Tempo-2020-03-15_-_Western_Adverntures_-_David_Fesliyan.mp3";
-    sound.play();
-})
+        if(sound.paused){
+          sound.play();
+          button.innerHTML = "Pause";}
+        else {
+          sound.pause();
+          button.innerHTML = "Play";}
+}) 
