@@ -22,7 +22,9 @@ body{
     background-repeat: no-repeat;
     background-position: center ;
 }
-
+/*img src="lena.png" 
+onmouseover="this.src='lena_grayscale.png'" 
+onmouseout="this.src='lena.png'"*/
 .reveal{
     opacity : 0;
     transform : translateY(-30px);}
